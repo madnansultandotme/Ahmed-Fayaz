@@ -145,7 +145,7 @@ const Contact = () => {
                   <span className="text-secondary">Available for new projects</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Currently accepting projects for Q2 2024. Book your slot early!
+                  Currently accepting projects. Book your slot early!
                 </p>
               </Card>
             </div>
