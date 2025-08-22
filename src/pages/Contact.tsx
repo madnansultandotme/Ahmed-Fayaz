@@ -11,8 +11,8 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       description: "Get in touch via email",
-      link: "mailto:ahmedfayaz.dev@example.com",
-      display: "ahmedfayaz.dev@example.com"
+      link: "mailto:Malikahmedfayaz@gmail.com",
+      display: "Malikahmedfayaz@gmail.com"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
