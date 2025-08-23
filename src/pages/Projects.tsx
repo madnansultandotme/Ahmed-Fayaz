@@ -9,10 +9,10 @@ import nikeapp from "@/assets/nike-app.png"
 const Projects = () => {
   const projects = [
     {
-      title: "Smart Cal",
-      description: "A smart calendar and task manager app with intelligent reminders and scheduling features.",
-      image: "https://media.contra.com/image/upload/w_800,q_auto/zjsi8tfsr2xewzocpwlf",
-      link: "https://contra.com/p/Xvr3ENsW-smart-cal"
+            title: "Live Streaming App",
+      description: "Real-time live streaming platform with interactive chat and audience engagement tools.",
+      image: "https://media.contra.com/image/upload/w_800,q_auto/sxs53lkxl5dunctgetgk",
+      link: "https://contra.com/p/ZBkbAekN-live-streaming-app"
     },
     {
       title: "Medical Appointment App",
@@ -45,10 +45,11 @@ const Projects = () => {
       link: "https://contra.com/p/LoEXbWgW-karaye-pay-project"
     },
     {
-      title: "Live Streaming App",
-      description: "Real-time live streaming platform with interactive chat and audience engagement tools.",
-      image: "https://media.contra.com/image/upload/w_800,q_auto/sxs53lkxl5dunctgetgk",
-      link: "https://contra.com/p/ZBkbAekN-live-streaming-app"
+
+      title: "Smart Cal",
+      description: "A smart calendar and task manager app with intelligent reminders and scheduling features.",
+      image: "https://media.contra.com/image/upload/w_800,q_auto/zjsi8tfsr2xewzocpwlf",
+      link: "https://contra.com/p/Xvr3ENsW-smart-cal"
     },
     {
       title: "Fit Pro App",
