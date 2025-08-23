@@ -6,16 +6,22 @@ import { Fragment } from "react";
 const Services = () => {
   const mainServices = [
     {
+      title: "Custom iOS Apps",
+      description: "Full-cycle development from idea to App Store.",
+      icon: "https://media.contra.com/image/upload/w_800,q_auto/mjjo8dmbff0kh8jrd52a",
+      features: ["Native iOS Development", "Swift & SwiftUI Expertise", "App Store Deployment", "Maintenance & Support"]
+    },
+    {
       title: "Custom Android Apps",
       description: "Full-cycle development from idea to Play Store.",
       icon: "https://media.contra.com/image/upload/w_800,q_auto/mjjo8dmbff0kh8jrd52a",
       features: ["Native Android Development", "Kotlin & Java Expertise", "Play Store Deployment", "Maintenance & Support"]
     },
     {
-      title: "UI/UX Optimization",
-      description: "Beautiful, responsive designs with smooth interactions.",
+      title: "Cross-Platform Strategy",
+      description: "Strategic planning for both iOS and Android platforms.",
       icon: "https://media.contra.com/image/upload/w_800,q_auto/k2ngurbzbyogiici5ekt",
-      features: ["Material Design Implementation", "Responsive Layouts", "Performance Optimization", "User Experience Testing"]
+      features: ["Platform-Specific Optimization", "Unified User Experience", "Code Architecture Planning", "Performance Optimization"]
     }
   ];
 
@@ -51,12 +57,12 @@ const Services = () => {
               My Services
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive Android development services to bring your ideas to life
+              Comprehensive iOS and Android development services to bring your ideas to life
             </p>
           </div>
 
           {/* Main Services */}
-          <div className="grid lg:grid-cols-2 gap-12 mb-20">
+          <div className="grid lg:grid-cols-3 gap-8 mb-20">
             {mainServices.map((service, index) => (
               <Card 
                 key={service.title}
@@ -85,7 +91,7 @@ const Services = () => {
 
                 <Button 
                   asChild 
-                  variant={index === 0 ? "default" : "outline"}
+                  variant={index === 0 ? "default" : index === 1 ? "outline" : "secondary"}
                   size="lg"
                   className="w-full"
                 >
@@ -133,7 +139,7 @@ const Services = () => {
                 { step: "01", title: "Discovery", desc: "Understanding your requirements and goals", icon: <Search className="w-7 h-7" aria-hidden="true" /> },
                 { step: "02", title: "Design", desc: "Creating wireframes and UI/UX designs", icon: <PenTool className="w-7 h-7" aria-hidden="true" /> },
                 { step: "03", title: "Development", desc: "Building with clean, efficient code", icon: <Code className="w-7 h-7" aria-hidden="true" /> },
-                { step: "04", title: "Deployment", desc: "Testing, optimization, and Play Store launch", icon: <Rocket className="w-7 h-7" aria-hidden="true" /> }
+                { step: "04", title: "Deployment", desc: "Testing, optimization, and App Store/Play Store launch", icon: <Rocket className="w-7 h-7" aria-hidden="true" /> }
               ].map((phase, idx, arr) => (
                 <Fragment key={phase.step}>
                   <div

@@ -80,7 +80,7 @@ const Projects = () => {
               My Projects
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A showcase of Android applications I've built with passion and precision
+              A showcase of iOS and Android applications I've built with passion and precision
             </p>
           </div>
 
@@ -137,7 +137,7 @@ const Projects = () => {
             <Card className="max-w-2xl mx-auto p-8 bg-gradient-hero text-white shadow-xl border-0">
               <h2 className="text-2xl font-bold mb-4">Ready to Build Your Next App?</h2>
               <p className="mb-6 text-white/90">
-                Let's collaborate to bring your mobile app idea to life with cutting-edge Android development.
+                Let's collaborate to bring your mobile app idea to life with cutting-edge iOS and Android development.
               </p>
               <Button asChild variant="outline" size="lg" className="border-white text-black hover:bg-white hover:text-secondary transform hover:scale-105 transition-all duration-300">
                 <a href="/contact">Start a Project</a>

@@ -12,11 +12,11 @@ const UpworkLogo = () => (
 );
 
 const Home = () => {
-  const skills = ["Kotlin", "Java", "Android SDK", "Material Design", "Firebase", "MVVM"];
+  const skills = ["Kotlin", "Swift", "Java", "iOS SDK", "Android SDK", "Firebase", "MVVM", "UIKit"];
   const stats = [
     { label: "Years Experience", value: "3+", icon: <Code2 className="w-5 h-5" /> },
-    { label: "Apps Developed", value: "25+", icon: <Smartphone className="w-5 h-5" /> },
-    { label: "Happy Clients", value: "15+", icon: <Users className="w-5 h-5" /> },
+    { label: "Apps Developed", value: "50+", icon: <Smartphone className="w-5 h-5" /> },
+    { label: "Happy Clients", value: "25+", icon: <Users className="w-5 h-5" /> },
   ];
 
   return (
@@ -43,13 +43,13 @@ const Home = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
                 Ahmed Fayaz
                 <span className="block text-3xl lg:text-4xl font-normal text-white/80 mt-2">
-                  Android Developer
+                  iOS & Android Developer
                 </span>
               </h1>
               
               <p className="text-xl text-white/80 mb-8 leading-relaxed max-w-lg">
-                Crafting exceptional mobile experiences with <span className="text-white font-medium">Kotlin</span> & <span className="text-white font-medium">Java</span>. 
-                Specialized in modern Android architecture and user-centric design.
+                Crafting exceptional mobile experiences with <span className="text-white font-medium">Swift & Kotlin</span>. 
+                Specialized in modern iOS and Android architecture with user-centric design.
               </p>
 
               {/* Skills Pills */}
@@ -100,7 +100,7 @@ const Home = () => {
                 <div className="w-80 h-80 relative">
                   <img
                     src={profile}
-                    alt="Ahmed Fayaz - Android Developer"
+                    alt="Ahmed Fayaz - iOS & Android Developer"
                     className="w-full h-full object-cover rounded-2xl shadow-xl"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-4 ring-white/20"></div>
@@ -146,18 +146,18 @@ const Home = () => {
               Professional Experience
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              3+ years of dedicated Android development with expertise in modern technologies and best practices
+              3+ years of dedicated iOS and Android development with expertise in modern technologies and best practices
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-slide-up">
               <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                <h3 className="text-xl font-semibold text-secondary mb-3">Android Developer</h3>
+                <h3 className="text-xl font-semibold text-secondary mb-3">iOS & Android Developer</h3>
                 <p className="text-primary font-medium mb-2">Freelance • 2021 - Present</p>
                 <p className="text-muted-foreground">
-                  Specialized in developing high-quality Android applications using Kotlin, Java, and modern Android architecture patterns. 
-                  Successfully delivered 25+ projects for diverse clients worldwide.
+                  Specialized in developing high-quality iOS and Android applications using Swift, Kotlin, and modern mobile architecture patterns. 
+                  Successfully delivered 25+ projects for diverse clients worldwide across both platforms.
                 </p>
               </div>
               
@@ -166,15 +166,15 @@ const Home = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3"></span>
-                    Built apps with 10K+ downloads on Google Play Store
+                    Built apps with 10K+ downloads on App Store and Google Play
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3"></span>
-                    Expertise in MVVM, Clean Architecture, and Jetpack Compose
+                    Expertise in MVVM, Clean Architecture, SwiftUI, and Jetpack Compose
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary rounded-full mt-2 mr-3"></span>
-                    Implemented Firebase, Room Database, and RESTful APIs
+                    Cross-platform development with native iOS and Android solutions
                   </li>
                 </ul>
               </div>
@@ -185,8 +185,8 @@ const Home = () => {
                 <h3 className="text-2xl font-bold mb-6">Technical Expertise</h3>
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    "Kotlin", "Java", "Android SDK", "Jetpack Compose", 
-                    "MVVM", "Firebase", "Room Database", "Material Design"
+                    "Swift", "Kotlin", "iOS SDK", "Android SDK", "SwiftUI", "Jetpack Compose", 
+                    "UIKit", "MVVM", "Firebase", "Core Data", "Room Database", "Material Design"
                   ].map((tech, index) => (
                     <div key={tech} className="bg-white/10 rounded-lg p-3 text-center backdrop-blur-sm" style={{animationDelay: `${index * 0.1}s`}}>
                       <span className="text-sm font-medium">{tech}</span>
@@ -207,7 +207,7 @@ const Home = () => {
               <div className="relative">
                 <img
                   src={profile}
-                  alt="Ahmed Fayaz working on Android development"
+                  alt="Ahmed Fayaz working on iOS and Android development"
                   className="rounded-2xl shadow-xl w-full"
                 />
                 <div className="absolute inset-0 rounded-2xl ring-4 ring-primary/20"></div>
@@ -220,18 +220,18 @@ const Home = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate Android developer with over 3 years of experience creating innovative mobile solutions. 
-                  My journey in mobile development started with a fascination for creating apps that solve real-world problems 
-                  and enhance user experiences.
+                  I'm a passionate iOS and Android developer with over 3 years of experience creating innovative mobile solutions 
+                  for both platforms. My journey in mobile development started with a fascination for creating apps that solve 
+                  real-world problems and enhance user experiences across all devices.
                 </p>
                 <p>
-                  Specializing in Kotlin and Java, I focus on building scalable, maintainable applications using modern 
-                  Android architecture patterns. From concept to Play Store deployment, I ensure every project meets 
-                  the highest standards of quality and performance.
+                  Specializing in Swift for iOS and Kotlin for Android, I focus on building scalable, maintainable applications 
+                  using modern architecture patterns. From concept to App Store and Play Store deployment, I ensure every project 
+                  meets the highest standards of quality and performance on both platforms.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy staying updated with the latest Android technologies, contributing to 
-                  open-source projects, and helping fellow developers in the community.
+                  When I'm not coding, I enjoy staying updated with the latest iOS and Android technologies, contributing to 
+                  open-source projects, and helping fellow developers in the mobile development community.
                 </p>
               </div>
               
@@ -255,8 +255,8 @@ const Home = () => {
             Building the Future of Mobile
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            From concept to Play Store, I create Android applications that users love. 
-            Focused on performance, usability, and modern design principles.
+            From concept to App Store and Play Store, I create iOS and Android applications that users love. 
+            Focused on performance, usability, and modern design principles across both platforms.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">

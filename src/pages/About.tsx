@@ -3,9 +3,9 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "Kotlin", "Java", "Android SDK", "Material Design", "Firebase",
-    "Room Database", "Retrofit", "Coroutines", "MVVM", "Clean Architecture",
-    "Git", "REST APIs", "UI/UX Design", "Performance Optimization"
+    "Swift", "Kotlin", "iOS SDK", "Android SDK", "SwiftUI", "UIKit", "Jetpack Compose", 
+    "Material Design", "Firebase", "Core Data", "Room Database", "Retrofit", "Alamofire",
+    "Coroutines", "MVVM", "Clean Architecture", "Git", "REST APIs", "UI/UX Design", "Performance Optimization"
   ];
 
   return (
@@ -26,12 +26,12 @@ const About = () => {
               <Card className="p-8 bg-gradient-card shadow-lg border-0">
                 <h2 className="text-2xl font-bold text-secondary mb-6">My Story</h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Passionate Android Developer with expertise in Kotlin, Java, and modern mobile architectures. 
-                  Experienced in creating user-centric apps with smooth UI and robust backend integration.
+                  Passionate iOS and Android Developer with expertise in Swift, Kotlin, and modern mobile architectures. 
+                  Experienced in creating user-centric apps for both platforms with smooth UI and robust backend integration.
                 </p>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
                   I believe in writing clean, maintainable code and following best practices to deliver 
-                  high-quality mobile applications that users love. My focus is on creating seamless 
+                  high-quality mobile applications that users love across iOS and Android platforms. My focus is on creating seamless 
                   user experiences while ensuring optimal performance and scalability.
                 </p>
                 <div className="space-y-4">
@@ -41,11 +41,11 @@ const About = () => {
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-accent rounded-full"></div>
-                    <span className="text-secondary font-medium">3+ years developing scalable Android apps</span>
+                    <span className="text-secondary font-medium">3+ years developing scalable iOS & Android apps</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-success rounded-full"></div>
-                    <span className="text-secondary font-medium">Specializing in Kotlin & Java</span>
+                    <span className="text-secondary font-medium">Specializing in Swift & Kotlin</span>
                   </div>
                 </div>
               </Card>
@@ -86,7 +86,7 @@ const About = () => {
                   </div>
                   <div className="border-l-4 border-success pl-4">
                     <h4 className="font-semibold text-secondary">Continuous Learning</h4>
-                    <p className="text-muted-foreground text-sm">Staying updated with latest Android development trends</p>
+                    <p className="text-muted-foreground text-sm">Staying updated with latest iOS and Android development trends</p>
                   </div>
                 </div>
               </Card>
