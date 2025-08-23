@@ -206,7 +206,7 @@ const Home = () => {
             <div className="animate-fade-in">
               <div className="relative">
                 <img
-                  src="https://media.contra.com/image/upload/w_800,q_auto/ocyceabygm5upliof9ml"
+                  src={profile}
                   alt="Ahmed Fayaz working on Android development"
                   className="rounded-2xl shadow-xl w-full"
                 />

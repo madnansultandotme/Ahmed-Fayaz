@@ -11,6 +11,30 @@ const Projects = () => {
       link: "https://contra.com/p/Xvr3ENsW-smart-cal"
     },
     {
+      title: "Medical Appointment App",
+      description: "Healthcare app for booking appointments, searching dentists, and managing upcoming medical appointments with user-friendly interface.",
+      image: "/src/assets/medical-app.png", // You'll need to add this image file
+      link: "#"
+    },
+    {
+      title: "Nike Collection App",
+      description: "E-commerce mobile app for Nike shoe collection with product details, size selection, and shopping cart functionality.",
+      image: "/src/assets/nike-app.png", // You'll need to add this image file
+      link: "#"
+    },
+    {
+      title: "Music Streaming App",
+      description: "Modern music streaming platform with curated playlists, trending music discovery, and personalized user experience.",
+      image: "/src/assets/music-app.png", // You'll need to add this image file
+      link: "#"
+    },
+    {
+      title: "Dating App",
+      description: "Social dating application with profile matching, chat features, and intuitive swipe-based user interactions.",
+      image: "/src/assets/dating-app.png", // You'll need to add this image file
+      link: "#"
+    },
+    {
       title: "Karaye Pay Project", 
       description: "Comprehensive rental management system with payment processing and tenant notifications.",
       image: "https://media.contra.com/image/upload/w_800,q_auto/jjcxug3p0lnrqwrywmyp",
