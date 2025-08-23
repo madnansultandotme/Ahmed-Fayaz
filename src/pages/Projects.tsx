@@ -1,6 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
+import datingapp from "@/assets/dating-app.png"
+import medicalapp from "@/assets/medical-app.png"
+import musicapp from "@/assets/music-app.png"
+import nikeapp from "@/assets/nike-app.png"
 
 const Projects = () => {
   const projects = [
@@ -13,25 +17,25 @@ const Projects = () => {
     {
       title: "Medical Appointment App",
       description: "Healthcare app for booking appointments, searching dentists, and managing upcoming medical appointments with user-friendly interface.",
-      image: "/src/assets/medical-app.png", // You'll need to add this image file
+      image: medicalapp,
       link: "#"
     },
     {
       title: "Nike Collection App",
       description: "E-commerce mobile app for Nike shoe collection with product details, size selection, and shopping cart functionality.",
-      image: "/src/assets/nike-app.png", // You'll need to add this image file
+      image: nikeapp,
       link: "#"
     },
     {
       title: "Music Streaming App",
       description: "Modern music streaming platform with curated playlists, trending music discovery, and personalized user experience.",
-      image: "/src/assets/music-app.png", // You'll need to add this image file
+      image: musicapp,
       link: "#"
     },
     {
       title: "Dating App",
       description: "Social dating application with profile matching, chat features, and intuitive swipe-based user interactions.",
-      image: "/src/assets/dating-app.png", // You'll need to add this image file
+      image: datingapp,
       link: "#"
     },
     {
